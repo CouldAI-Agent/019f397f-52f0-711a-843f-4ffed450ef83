@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/chat_screen.dart';
+import 'screens/voice_screen.dart';
 import 'screens/settings_screen.dart';
 
 void main() {
@@ -19,7 +19,7 @@ class HomeAssistantApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/': (context) => const ChatScreen(),
+        '/': (context) => const VoiceScreen(),
         '/settings': (context) => const SettingsScreen(),
       },
     );

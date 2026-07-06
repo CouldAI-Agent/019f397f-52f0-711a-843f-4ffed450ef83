@@ -1,22 +1,28 @@
-# Smart Home AI Assistant
+# AI Voice Assistant
 
-A cross-platform Flutter application that acts as the frontend interface for an AI-powered smart home backend. 
+A voice-first ambient AI assistant interface built with Flutter.
+
+## Overview
+This application serves as the front-end for a voice-controlled home assistant. It replaces traditional text chat with an ambient, full-screen listening interface designed to run on a tablet, smart display, or mobile device.
 
 ## Features
-- **Voice Input:** Toggle microphone for voice commands (UI implemented, ready for speech-to-text integration).
-- **Chat Interface:** Clean, modern conversational UI to interact with the AI assistant.
-- **Settings:** Configurable Text-to-Speech (TTS) toggles and server connection settings.
-- **Architecture Ready:** Designed to connect seamlessly to a Python server managing AI assistance, memory, smart-home APIs, and automation.
+- **Ambient Voice Interface**: A minimalist, animated visualization for voice interaction.
+- **Settings Screen**: Configuration for the backend Python server connection and TTS toggles.
+- **Cross-Platform**: Runs beautifully on Web, Mobile, and Desktop.
 
-## Tech Stack
-- **Frontend:** Flutter (iOS, Android, Web, Desktop)
-- **Backend (Target):** Python Server (AI Assistant, Memory, Smart-home APIs)
+## Project Structure
+- `lib/screens/voice_screen.dart`: The main ambient voice interface.
+- `lib/screens/settings_screen.dart`: Server and app configuration.
 
-## Setup
-1. Make sure you have Flutter installed.
-2. Run `flutter pub get` to fetch dependencies.
-3. Run `flutter run` to start the app.
+## Getting Started
+1. Run `flutter pub get`
+2. Run `flutter run`
+
+## Backend Integration
+This app is designed to communicate with a Python backend that handles intent recognition, memory, and smart-home API triggers. 
 
 ---
-### About CouldAI
+
+## About CouldAI
+
 This application was generated with [CouldAI](https://could.ai), an AI app builder for cross-platform apps that turns prompts into real native iOS, Android, Web, and Desktop apps with autonomous AI agents that architect, build, test, deploy, and iterate production-ready applications.
